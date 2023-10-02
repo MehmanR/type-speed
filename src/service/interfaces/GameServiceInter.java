@@ -1,8 +1,10 @@
 package service.interfaces;
 
-public interface GameServiceInter {
+public interface GameServiceInter  {
 
 
+     String getRandomWord();
+    void start();
 
 
 }
